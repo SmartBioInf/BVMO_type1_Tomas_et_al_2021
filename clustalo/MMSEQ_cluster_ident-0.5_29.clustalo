@@ -1,0 +1,39 @@
+
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         MTRSSHGEHAGVAIIGAGFAGIGLSVKLREAGFTDFVVLERASEIGGVWRDNTYPGCACD
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      MATDNTAAHVPVVIIGAGIAGIALGVELRAAGLTDFVVLERAEGLGGTWRANTYPGCACD
+                                                       *: .. . *. *.*****:***.*.*:** **:*********. :**.** *********
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         VPSHLYSYSFAPNPNWTRTYGRQHEILAYLRKVAGDNDVVQHIRFDSELLDARWEDRENQ
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      VPSQLYSYSFAPNPDWSRTYGTQPEILGYLERVATEHGVVAHMRFGTELRDARWDEDAEA
+                                                       ***:**********:*:**** * ***.**.:** ::.** *:**.:** ****::  : 
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         WRIKTSSGSLTARILVTATGLFTDASIPRLPGLERFEGAKFHSLHWDHDHDLTGERVAVI
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      WRVSTSRGDYTAGVLISAVGPFSEASIPDLPGRASFAGTQFHSLHWDHEHDLRGERVAVI
+                                                       **:.** *. ** :*::*.* *::**** ***   * *::********:*** *******
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         GTGASAVQFIPEIQPIIKHLTVFQRSAPWIVTRMDRPTLALERALLRHVPGMQRGLRAAY
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      GTGASAVQFIPEIQPLVGQLTVFQRSAPWIVSRLDRSTTGVERALLRRLPALGKAIRGAY
+                                                       ***************:: :************:*:** * .:******::*.: :.:*.**
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         YGMIESFGLPGFVDRRFRHPFEALGRMQLLRQVRDPELRRKLTPDYMIGCKRAIFSDSYF
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      YTGIESFGLVGFVDKRFRHPFETLAKLQLLRQVRDPRLRRILTPDYVIGCKRAIFSDAYY
+                                                       *  ****** ****:*******:*.::*********.*** *****:**********:*:
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         PALTQSNVTVATSGIREIGRHSITTHDGREYPVDTIIFGTGFTMPAGAGSRIFGRDGTSM
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      PALTQPNVEVVTAGIAEIRPHSIVTVDGADYPIDTLIWGTGFGVPPAIFQRVHGVDGRSI
+                                                       ***** ** *.*:** **  ***.* ** :**:**:*:**** :* .  .*:.* ** *:
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         GERYEQRPQSYLGVATTGFPNAFSILGPFGAVGNQSAIFMIELQISYIIDALNKLDTIGA
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      ADIYRERPSSYLGAAIAGFPNFFCTLGPFGAAGNQSAIFMIEAQARYIVDALKTMRAQRV
+                                                       .: *.:**.****.* :**** *. ******.********** *  **:***:.: :  .
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         QRVEVRPDVQDAFLAEVEQRSEHTVWLQGGCNSYYTTADGRNAGLYPNWSFEYRSRVKQF
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      TRVAVRPEVQRAFLDDVNARSRDTAWLTGGCRSYYQTADGANSGLYPNWSFEYARRTRHF
+                                                        ** ***:** *** :*: **..*.** ***.*** **** *:**********  *.::*
+
+H.subflava_NC_015564.1_prot_WP_013805536.1_703         NTDDYQIKAG
+N.farcinia_NZ_CP031418.1_prot_WP_060593259.1_5811      DADSYEMRTR
+                                                       ::*.*:::: 

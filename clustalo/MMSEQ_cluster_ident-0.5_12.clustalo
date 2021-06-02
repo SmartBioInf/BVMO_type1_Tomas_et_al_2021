@@ -1,0 +1,43 @@
+
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      MSHATNPIKDPSWGSSAEDVRVVDAVVVGAGMGGMYAVKRLVGEGRTVIAFEGAPDVGGV
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        -------MDPKPLGQQYGDTGDVDAVVIGAGIGGLYAVRRLAADGLSVMGFDSATDVGGV
+                                                              :.    *..  *.  *****:***:**:***:**..:* :*:.*:.* *****
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      WLHNRYPGARVDIEAYYYCYFDPELYGTWRWTERYPAQPEILAYLRHYADHHDIRRHFRF
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        WLHNGYPGARVDIEAYYYCFFDPEIYGEWQWSQRFPPQSELLAYLRHYAEHYGLRRYFQF
+                                                       **** **************:****:** *:*::*:* * *:********:*:.:**:*:*
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      STWVEQMLWDPEEELWRIRTSTGQSVAARHVLMATGQLSKSRELPFPGSEDFTGEWVETS
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        STRVDELHWQPDTKRWRVRTDTGATVYARHVVLATGQLSKGRQLPFEGVEDFAGQWLETS
+                                                       ** *::: *:*: : **:**.** :* ****::*******.*:*** * ***:*:*:***
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      HWPDRPVEIAGKRVAVIGTGSSGVQVITEVAKEAASLHVFQRTPNYVVPSQNAPIDHEKY
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        QWPTEPVDLAGKRVAVIGTGSSGAQVIAAIAEQVESLHVFQRTPNYVVPSQNAPMDQDRY
+                                                       :** .**::**************.***: :*::. *******************:*:::*
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      ADIAARLPEVWQQVQGSSTAYLAPTSDTPATELSPEEQLKRLESQWEFGGLAMTFAFPDQ
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        RQYSQNLDELWHQVMGTGVAYLAPTSDVPASSMDPEQQRQRMEDQWQFGGLGMTFTFPDQ
+                                                        : : .* *:*:** *:..********.**:.:.**:* :*:*.**:****.***:****
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      RTDWTVNDIVSNYVREKIRSSISDPELAAVLEPKDYPIGTRRLCVCNGYYETYNRPNVEL
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        RTDWKTAELVSDFVRAKIRESIKNPALADVLEPRDYPIGTRRLVVCNGYYEAFNRDNVNL
+                                                       ****.. ::**::** ***.**.:* ** ****:********* *******::** **:*
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      VNLREEPIERITPTGIRTSSGEYEFDLIISALGFDAFTGPIDAIDIRNEHGARPTESWQR
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        VDLRKESITRITPQGIQTDEGLYEVDVIISALGFDAFSGAMDAIDIRNADGRGPTEDWDR
+                                                       *:**:* * **** **:*..* **.*:**********:* :******* .*  ***.*:*
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      GPHSYLGLMLHGFPNLYLLTGPGSPSVLVNFNVHNVYHVDVVTDLIGYMERNGLTSVQPT
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        GPHAHLGLMVHGFPNMYVLTGPGSPSVLVNFNVHNVFHVDYVADLIAYMSRHGYDAVQPT
+                                                       ***::****:*****:*:******************:*** *:***.**.*:*  :****
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      LAAQEDWKQRSQAVADGLIRKQVENYMTHVNEDGTRFFIPYAGGWGNYVQIVDDVVARGY
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        AEAQQSWHIETQRVADGLLRKKVKNYMVHVNDDGSRVFIPYAGGWSTYVDTVNRVASEGY
+                                                         **:.*: .:* *****:**:*:***.***:**:*.********..**: *: *.:.**
+
+M.smegmatis_NZ_LN831039.1_prot_WP_058125137.1_605      EGFEFR-------------------
+M.vaccae_NZ_CP011491.1_prot_WP_064635265.1_5770        PGFAFSEVGKSTYRAVDHEDTVVPL
+                                                        ** *                    

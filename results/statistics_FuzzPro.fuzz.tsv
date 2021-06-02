@@ -1,0 +1,15 @@
+Genome	Nb_seqs_with_Rossmann	Nb_seqs_with_BVMO1	Nb_seqs_with_BVMO2	Nb_seqs_with_global_pattern_RBVR
+Rhodoccocus_jostii	2701	17	9	8
+Mycobacterium_bovis	1530	6	6	6
+Mycobacterium_marinum	2185	14	11	11
+Bacillus_subtilis	894			0
+Corynebacterium_glutamicum	917			0
+Mycobacterium_vaccae	2325	16	12	12
+Mycobacterium_tuberculosis	1513	6	6	6
+Hoyosella_subflava	1599	15	7	6
+Mycobacterium_leprae	765	2	2	1
+Mycobacterium_smegmatis	2492	13	10	10
+Nocardia_farcinia	2274	16	10	10
+Mycolicibacterium_gilvum	2025	14	11	11
+Mycobacterium_phlei	1890	12	10	10
+Escherichia_coli	1001			0
