@@ -116,7 +116,7 @@ function printLinkToMSA(cluster_id, clusters_folder, clustal_folder, MSALink){
 	.attr("href", clustal_folder + "/" + cluster_id + ".clustalo")
 	.text("Clustal file ")
 	.append("img")
-	.attr("src","img/file-earmark-medical.svg")
+	.attr("src","html/img/file-earmark-medical.svg")
 	.attr("width","16px");
 	
 	// link to MView HTML file
@@ -126,7 +126,7 @@ function printLinkToMSA(cluster_id, clusters_folder, clustal_folder, MSALink){
 	.attr("href", clusters_folder + "/" + cluster_id + ".html")
 	.text("MView file ")
 	.append("img")
-	.attr("src","img/file-richtext.svg")
+	.attr("src","html/img/file-richtext.svg")
 	.attr("width","16px");
 	links.append("br");
 
@@ -143,10 +143,10 @@ function print_results() {
     // create link to file in download_statistics element
     var link =  d3.select('#download_resume_file')
                    .append("a")
-                   .attr("href", "../results/all_genomes_fuzzpro_results.resume.tsv")
+                   .attr("href", "results/all_genomes_fuzzpro_results.resume.tsv")
                    .text("FuzzPro resume file ")
                    .append("img")
-                   .attr("src","img/file-earmark-spreadsheet.svg")
+                   .attr("src","html/img/file-earmark-spreadsheet.svg")
                    .attr("width","16px");
 
     ////////////////
@@ -157,8 +157,8 @@ function print_results() {
 
 	
 	Promise.all([
-		d3.tsv("../results/all_results_FuzzPro.fuzz.tsv",d3.autoType),
-		d3.tsv("../results/all_genomes_fuzzpro_results.resume.tsv",d3.autoType)
+		d3.tsv("results/all_results_FuzzPro.fuzz.tsv",d3.autoType),
+		d3.tsv("results/all_genomes_fuzzpro_results.resume.tsv",d3.autoType)
 		]).then(function(files) {
 		
 		const allResults = files[0] ;
@@ -171,7 +171,7 @@ function print_results() {
 		const genomes = resumeResults.map(d => d.genome).filter(distinct);
 		
 		// initialize selected species
-		var selectedGenome = genomes[0] ;
+		var selectedGenome = "Mycobacterium_tuberculosis" ;
 		// initialize selected sequences
 		var displayedSequences = selectSequencesToDisplay(resumeResults, selectedGenome);
 		// initialize selected results
@@ -414,8 +414,8 @@ function print_results() {
 					      .attr("fill-rule","evenodd")
 					      .attr("d","M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z")
 						  .on("click", function(event, d) { 
-						       printMSA(d.cluster, "./", MSA);
-						       printLinkToMSA(d.cluster, "./" , "../clustalo/", MSALink)})
+						       printMSA(d.cluster, "./html/", MSA);
+						       printLinkToMSA(d.cluster, "./html/" , "clustalo/", MSALink)})
 					      .on("mouseover", function(event, d) {d3.select(this).attr("fill", "#42365c")})
 					      .on("mousemove", function(event, d) { d3.select(this).attr('fill', '#42365c') } )
 					      .on("mouseleave", function(event, d) { d3.select(this).attr('fill', '#2378ae') } );
@@ -433,8 +433,6 @@ function print_results() {
 			   .attr("text-anchor", "end")
 			   .text(d => "view MSA " + d.cluster + " (" + d.nb_seqs_in_cluster + " seqs)" );			
 		}
-		
-		printChart();
 		
         ////////////////////////////////
 		// clean all chart elements 
@@ -479,8 +477,10 @@ function print_results() {
 		 		.enter()
 		 		.append('option')
 		 		.text(function (d) { return d; }) // text showed in the menu
-		 		.attr("value", function (d) { return d; }); // corresponding value returned by the button	 
+		 		.attr("value", function (d) { return d; }) // corresponding value returned by the button	
+				.property("selected", function(d){ return d === 'Mycobacterium_tuberculosis'; })
 			
+		printChart();
 	})
 	
 }

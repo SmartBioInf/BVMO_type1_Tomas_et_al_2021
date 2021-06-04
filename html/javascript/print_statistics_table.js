@@ -8,10 +8,10 @@ function tabulate(data) {
 	    // create link to file in download_statistics element
 	    var link =  d3.select('#download_statistics')
                        .append("a")
-                       .attr("href", "../results/statistics_FuzzPro.fuzz.tsv")
+                       .attr("href", "results/statistics_FuzzPro.fuzz.tsv")
                        .text("Statistics file ")
                        .append("img")
-                       .attr("src","img/file-earmark-spreadsheet.svg")
+                       .attr("src","html/img/file-earmark-spreadsheet.svg")
                        .attr("width","16px");
 	
 		//////////////////
@@ -59,7 +59,7 @@ function tabulate(data) {
 
 
 // read resume file 
-d3.tsv("../results/statistics_FuzzPro.fuzz.tsv",d3.autoType).then(function(data) {
+d3.tsv("results/statistics_FuzzPro.fuzz.tsv",d3.autoType).then(function(data) {
 		
 	// render the table(s)
 	tabulate(data); 
