@@ -308,7 +308,7 @@ function print_results() {
 				 	   .style("left", width + "px") 
 				 	   .style("top", chartHeight + "px")
 			}
-			
+
 			// add seqs lines corresponding to seq size
 			svg.append("g")
 				.selectAll("g")
@@ -324,7 +324,7 @@ function print_results() {
 
 			// plots patterns 
 						
-			// plot BVM01 data in blue
+			// plot BVM01 data in green
 			svg.append("g")
 				.attr("stroke", "#000")
 				.attr("stroke-opacity", 0.3)
@@ -336,13 +336,13 @@ function print_results() {
 				.attr("transform", "translate(" + paddingX  + ",0)")
 				.attr("cx", d => x(d.start))
 				.attr("cy", d => y(d.Sequence)+paddingY)
-				.attr("fill", "blue")
+				.attr("fill", "#196f6e")
 				.attr("r", 9)
 				.style("opacity", 0.8)
 				.on("mouseover", patternMouseOver )
 				.on("mouseout",  patternMouseLeave );
 
-			// plot BVM02 data in red
+			// plot BVM02 data in violet
 			svg.append("g")
 				.attr("stroke", "#000")
 				.attr("stroke-opacity", 0.3)
@@ -353,13 +353,13 @@ function print_results() {
 				.attr("transform", "translate(" + paddingX  + ",0)")
 				.attr("cx", d => x(d.start))
 				.attr("cy", d => y(d.Sequence)+paddingY)
-				.attr("fill", "red")
+				.attr("fill", "#6a0cd8")
 				.style("opacity", 0.8)
 				.attr("r", 9)
 				.on("mouseover", patternMouseOver )
 				.on("mouseout", patternMouseLeave );
 
-			// plot Rossman data in green
+			// plot Rossman data in orange
 			svg.append("g")
 				.attr("stroke", "#000")
 				.attr("stroke-opacity", 0.3)
@@ -370,7 +370,7 @@ function print_results() {
 				.attr("transform", "translate(" + paddingX  + ",0)")
 				.attr("cx", d => x(d.start))
 				.attr("cy", d => y(d.Sequence)+paddingY)
-				.attr("fill", "green")
+				.attr("fill", "#fd8401")
 				.style("opacity", 0.8)
 				.attr("r", 6)
 				.on("mouseover", patternMouseOver )
@@ -416,9 +416,18 @@ function print_results() {
 						  .on("click", function(event, d) { 
 						       printMSA(d.cluster, "./html/", MSA);
 						       printLinkToMSA(d.cluster, "./html/" , "clustalo/", MSALink)})
-					      .on("mouseover", function(event, d) {d3.select(this).attr("fill", "#42365c")})
-					      .on("mousemove", function(event, d) { d3.select(this).attr('fill', '#42365c') } )
-					      .on("mouseleave", function(event, d) { d3.select(this).attr('fill', '#2378ae') } );
+					      .on("mouseover", function(event, d) {
+							  d3.select(this).attr("fill", "#42365c");
+							  tooltip.style("opacity", .9)
+								     .html("click to display above the alignment of this cluster. ")
+								     .style("left", (event.pageX + 20) + "px") 
+								     .style("top", (event.pageY ) + "px")})
+					      .on("mousemove", function(event, d) {d3.select(this).attr('fill', '#42365c')})
+					      .on("mouseleave", function(event, d) {
+							   d3.select(this).attr('fill', '#2378ae');
+							   tooltip.style("opacity", 0)
+								      .style("left", width + "px") 
+								      .style("top", chartHeight + "px") } );
 
 			svg.append("g")
 			.selectAll("text")
